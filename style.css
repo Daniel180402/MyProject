@@ -1,0 +1,109 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+}
+
+header{
+  height: 250px;
+}
+
+nav{
+  height: 50px;
+}
+
+.container{
+    width: 1200px;
+    height: 850px;
+    margin: auto;
+    background:rgba(50,50,50,0.8);
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.logo{
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.logo-text{
+  text-align: center;
+  color: lime;
+}
+
+.menu{
+  margin: auto;
+  height: 40px;
+  width: 1000px;
+  background-color: lime;
+  display: block;
+  margin-top: 22px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+#button1, #button2, #button3{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#button1{
+  height: 20px;
+  width: 80px;
+}
+
+#button2{
+  height: 20px;
+  width: 150px;
+}
+
+#button3{
+  height: 20px;
+  width: 100px;
+}
+
+input[type="checkbox"], .username{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+input[type="checkbox"], .route, .battery, .battery-state{
+  margin-left: 100px;
+}
+
+.username{
+  height: 55px;
+}
+
+.route:before{
+content: "\2192";
+}
+
+.battery{
+  display: block;
+}
+
+.battery1{
+  height: 25px;
+  width: 320px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.battery2{
+  height: 25px;
+  width: 520px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.battery3{
+  height: 25px;
+  width: 140px;
+  background-color: red;
+  border-radius: 5px;
+}
